@@ -6,19 +6,25 @@ $(document).ready(function() {
     var result = parseInt($("#answer1").val()) + parseInt($("#answer2").val()) + parseInt($("#answer3").val()) + parseInt($("#answer4").val()) + parseInt($("#answer5").val());
     $(".result-box").fadeIn();
     if (result <= 8) {
-      $(".filler1 h1").text("Beautifuly Bright China");
+      $(".filler1 h1").text("Beautifully Bright China");
+      $(".jumbotron").removeClass("spain");
+      $(".jumbotron").removeClass("england");
       $(".jumbotron").addClass("china");
       $("#result-china").fadeIn();
       $("#result-england").hide();
       $("#result-spain").hide();
     } else if (result > 8 && result <= 17) {
       $(".filler1 h1").text("Modern and Artistic England");
+      $(".jumbotron").removeClass("spain");
+      $(".jumbotron").removeClass("china");
       $(".jumbotron").addClass("england");
       $("#result-china").hide();
       $("#result-england").fadeIn();
       $("#result-spain").hide();
     } else {
       $(".filler1 h1").text("The Historic and rich Atmosphere of Spain");
+      $(".jumbotron").removeClass("china");
+      $(".jumbotron").removeClass("england");
       $(".jumbotron").addClass("spain");
       $("#result-china").hide();
       $("#result-england").hide();
