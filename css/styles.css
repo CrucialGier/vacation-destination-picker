@@ -2,12 +2,16 @@
 hr {
   width: 80%;
   text-align: center;
+  margin-top: -5px;
 }
 
 
 body {
-  background-color: gray;
+  background-image: url("../img/background-beach.jpg");
 }
+
+
+/* Header */
 
 .header {
   font-size: 24px;
@@ -51,9 +55,28 @@ body {
   background-repeat: no-repeat;
 }
 
+
+/* Filler1 */
+
+.filler1 {
+  margin-top: 40px;
+}
+
+.filler1 h2 {
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+
 .filler1 form {
+  border-radius: 20px;
+  padding: 20px;
   margin-left: 40px;
   background-color: white;
+}
+
+.filler1 form .btn {
+  margin-top: 15px;
 }
 
 .filler1 .jumbotron {
@@ -65,5 +88,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 40px;
-  height: 350px;
+  height: 435px;
 }
