@@ -8,6 +8,7 @@ hr {
 
 body {
   background-image: url("../img/background-beach.jpg");
+  background-repeat: no-repeat;
 }
 
 
@@ -63,6 +64,7 @@ body {
 }
 
 .filler1 p {
+  color: white;
   font-size: 24px;
   max-width: 96%;
   margin-left: 2%;
@@ -72,7 +74,9 @@ body {
 
 .filler1 .result-box {
   display: none;
-  background-color: white;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
   border-radius: 20px;
 }
 
@@ -123,3 +127,6 @@ body {
 .china {
   background-image: url("../img/china.png");
 }
+
+
+/* Footer */
