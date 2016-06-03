@@ -44,10 +44,27 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.header #england-link:hover {
+  color: black;
+  text-shadow: none;
+  text-decoration: underline;
+  background-image: none;
+  background-color: white;
+}
+
 .header #china-link {
   background-image: url("../img/china.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header #china-link:hover {
+  color: black;
+  text-shadow: none;
+  text-decoration: underline;
+  background-image: none;
+  background-color: white;
 }
 
 .header #spain-link {
@@ -56,11 +73,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.header #spain-link:hover {
+  color: black;
+  text-shadow: none;
+  text-decoration: underline;
+  background-image: none;
+  background-color: white;
+}
+
 
 /* Filler1 */
 
 .filler1 {
   margin-top: 40px;
+  padding-bottom: 300px;
 }
 
 .filler1 p {
@@ -130,3 +156,31 @@ body {
 
 
 /* Footer */
+
+.footer {
+  height: 80px;
+  background-color: black;
+}
+
+.footer p {
+  text-align: right;
+  font-size: 24px;
+  color: gray;
+  margin-top: -45px;
+}
+
+.footer img {
+  width: 4%;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  color: gray;
+}
+
+.footer .mail {
+  margin-top: 20px;
+}
