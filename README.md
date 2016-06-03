@@ -8,7 +8,10 @@ _Fill out the form and the web-page will choose a vacation destination that suit
 
 ## Setup/Installation Requirements
 
+* _Visit the gh-pages at_ https://CrucialGier.github.io/vacation-destination-picker_
+
 * _Download repository at_ https://github.com/CrucialGier/vacation-destination-picker.git_
+
 * _Run index.html in google chrome or your preferred browser._
 
 ## Known Bugs
